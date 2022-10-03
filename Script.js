@@ -9,16 +9,24 @@ console.log(hello);
 
 /* Generar funciones de cálculos matemáticos*/
 var num = 5;
-function square(num){
-    return num*num;
+
+function square(num) {
+    return num * num;
 }
 
 var num2 = 10;
-function suma(num2){
-    return num2+num2;
+
+function suma(num2) {
+    return num2 + num2;
 }
 
 var num3 = 20;
-function division(num3){
-    return num3/num3;
+
+function division(num3) {
+    return num3 / num3;
 }
+/* Generar un tipo de array y recorrerlo*/
+
+let estaciones = ["verano", "otoño", "invierno"];
+let [a, b, c] = estaciones;
+console.log(a, b, c);
